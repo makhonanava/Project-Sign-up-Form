@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+  
+
+
+@font-face {
+    font-family: 'myfont';
+    src: url(./fonts/Norse-Bold.otf) format('truetype');
+}
+
+aside {
+    background-image:url(./images/plant.avif);
+    color: aliceblue;
+    display: flex;
+    width: 430px;
+    height: 100vh;
+    background-size:cover;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.logo {
+    width: 60px;
+}
+
+.aside-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.477);
+    margin-top: 160px;
+    font-family: 'myfont';
+    font-size: 3.5rem;
+}
+
+footer {
+    margin-top: auto;
+    align-self: center;
+    font-size: 0.7rem;
+    margin-bottom: 12px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+}
+
+.article-text {
+    color: black;
+    width: 500px;
+    font-size: 1.2rem;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.container article, main {
+    flex-direction: column;
+}
+
+h1 {
+    margin-left: 32px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-weight: 550;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.input {
+    flex-direction: column;
+    width: 200px;
+    height: 50px;
+}
+fieldset {
+    flex-direction: column;
+    margin: -32px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: min(80%,500px);
+    
+}
+
+main {
+    flex-shrink: 2;
+    justify-content: space-around;
+    padding: 32px;
+    background-color:rgba(210, 210, 210, 0.103);
+}
+
+.scnd{
+    margin-top: 20px;
+    margin-bottom: -36px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+label {
+    font-size: 0.7rem;
+    font-family: sans-serif;
+}
+
+input {
+    height: 23px;
+    border: #E5E7EB solid 1 px;
+    border-style: groove;
+    border-radius: 4px;
+    
+}
+
+input:valid {
+    border-color: #596D48;
+}
+
+input:focus {
+    border: 1px solid blue
+}
+
+input:invalid {
+    border-color: red;
+}
+
+button {
+    position: relative;
+    top: 70px;
+    right: 130px;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #596D48;
+    color: white;
+    font-family: sans-serif;
+}
+
+button:hover {
+    background-color: #678052;
+}
+
+.logIn {
+    color: #596D48;
+    
+}
+
+
+
+.text {
+    font-family: sans-serif;
+}
